@@ -1,4 +1,10 @@
 # WebApp_ManageFiles
+This basic web app allows users to:
+- Upload files
+- View the list of uploaded files
+- Search files by name or type
+- Download or delete files
+
 Place this folder it in your server directory.(With wampserver is it under "C:/wamp64/www/)
 Make sure a folder named "uploads" is present, otherwise create it. 
 
