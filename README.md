@@ -1,6 +1,6 @@
 # WebApp_ManageFiles
-Place it in your server directory.(With wampserver is it under "C:/wamp64/www/)
-In your main folder, make sure a folder named "uploads" is present, otherwise create it. 
+Place this folder it in your server directory.(With wampserver is it under "C:/wamp64/www/)
+Make sure a folder named "uploads" is present, otherwise create it. 
 
 Create a DB named: "files_db"
 Create table named: "files" with columns: id (int, autoincrement),namefile (text), sizefile (decimal), pathfile (text), datefile(current timestamp)
