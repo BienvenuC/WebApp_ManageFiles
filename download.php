@@ -1,10 +1,10 @@
 <?php
 // Specify the folder where your files are stored
-$folderPath = "C:/wamp64/www/Assignments/Intern1/uploads/";
+$target_dir = "./uploads/";
 // Get the file name from the query parameter
 if (isset($_GET['namefile'])) {  // namefile is the column name in the database
     $fileName = basename($_GET['namefile']);
-    $filePath = $folderPath . $fileName;
+    $filePath = $target_dir . $fileName;
 
     // Check if the file exists
     if (file_exists($filePath)) {

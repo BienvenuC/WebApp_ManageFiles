@@ -3,7 +3,7 @@ include("connect.php");
 
 
     //the directory where the file is going to be placed
-    $target_dir = "C:/wamp64/www/Assignments/Intern1/uploads/"; //relative path didn't work, this is why I chose absolute path
+    $target_dir = "./uploads/"; //relative path didn't work, this is why I chose absolute path
 
     // check if the file was uploaded
     if (isset($_FILES['fileToUpload']) && $_FILES['fileToUpload']['error'] == 0) {
